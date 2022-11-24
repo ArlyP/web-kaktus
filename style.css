@@ -1,0 +1,136 @@
+body{
+    margin: 10px 50px;
+    height: 100vh;
+    font-family: cursive;
+    background: #A1FFCE;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+header{
+    display: flex;
+    border: 2px white solid;
+    border-radius: 0 100px;
+    justify-content: space-around;
+    background: #56ab2f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    }
+
+.navigasi {
+    display: flex;
+}
+
+.wrapper{
+    color: white;
+    height: 30px;
+}
+
+li{
+    margin: 13px;
+    width: 100px;
+    list-style: none;
+}
+
+a{
+    box-shadow: 5px 6px gray;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+a:hover{
+    color: white ;
+    background: rgb(27,136,118);
+    background: linear-gradient(234deg, rgba(27,136,118,1) 10%, rgba(7,228,167,1) 59%);
+}
+
+main{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.deskripsi{
+    position: relative;
+    text-align: center;
+    width: 30vw;
+    margin-top: 20px;
+    padding: 4px;
+}
+
+.logo{
+    color: whitesmoke;
+    font-style: italic;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid yellow; */
+}
+
+.kaktus{
+    height: 360px;
+}
+
+
+@media only screen and (max-width: 480px) {
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    main{
+        margin-top: 50px;
+        font-size: 1.2em;
+        height: auto;
+        align-items: center;
+        display: block;
+    }
+    
+    .deskripsi{
+        justify-content: center;
+        text-align: center;
+        width: auto;
+    }
+
+    .ilustrasi img{
+        height: 300px;
+    }
+
+  }
+@media only screen and (max-width: 360px) {
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 270px;
+    }
+    
+    main{
+        margin-top: 50px;
+        font-size: 1.2em;
+        height: auto;
+        align-items: center;
+        display: block;
+    }
+    
+    .deskripsi{
+        justify-content: center;
+        text-align: center;
+        width: auto;
+    }
+
+    .ilustrasi img{
+        height: 260px;
+    }
+
+  }
+
